@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Tracker</title>
+  <style></style>
+</head>
+<body>
+  <h1>Monthly Budget/Forecast</h1> 
+
+  <!-- Portfolio -->
+  <table border="1"> 
+    <h2>Revenue</h2>
+    <thead>
+        <tr align = "center">
+          <th>Company Name</th>
+          <th>Role</th>
+          <th>Salary</th>
+          <th>Fee %</th>
+          <th>Amount £</th>
+          <th>Stage</th>
+          <th>Control</th>
+          <th>Chance of Placement %</th>
+          <th>Forecast £</th>
+        </tr>
+    </thead>
+        <tr>
+          <td><input type="text" name="Company Name" /></td>
+          <td><input type="text" name="Role" /></td>
+          <td><input type="number" name="Salary" /></td>
+          <td><input type="number" name="Fee %" /></td>
+          <td><input type="number" name="Amount £" /></td>
+          <td><input type="text" name="Stage" /></td>
+          <td><input type="text" name="Control" /></td>
+          <td><input type="number" name="Chance of Placement %" /></td>
+          <td><input type="number" name="Forecast £" /></td>
+        </tr>
+
+  </table> 
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+<!-- Expenses -->
+  <table border="1">
+    <h2>Expenses</h2>
+    <thead>
+        <tr align = "center">
+          <th>Name</th> 
+          <th>Amount £</th> 
+        </tr>
+        <tr>
+          <td><input type="text" name="Name" /></td>
+          <td><input type="number" name="Amount £" /></td>
+        </tr>
+    </thead>
+
+  </table>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+<!-- Number Totals -->
+  <table border="1">
+    <h2>Summary</h2>
+    <thead>
+        <tr align = "center">
+          <th>Total Income £</th> 
+          <th><input type="number" name="Total income £" /></th>
+        </tr>
+        <tr>
+          <th>Total Expenses</th> 
+          <th><input type="number" name="Total Expenses" /></th>
+        </tr>
+        <tr>
+          <th>Gross Profit</th> 
+          <th><input type="number" name="Gross Profit" /></th>
+        </tr>
+    </thead>
+  </table>
+
+  <!-- 
+  <div>
+    <label>Income: £</label>
+    <input type="number" id="income" />
+    <button onclick="setIncome()">Submit</button>
+  </div>
+
+  <div>
+    <label>Expense Name: </label>
+    <input type="text" id="expenseName" />
+    <label>Amount: £</label>
+    <input type="number" id="expenseAmount" />
+    <button onclick="addExpense()">Submit</button>
+  </div>
+
+  <h2>Summary</h2>
+  <p>Total income: £<span id="totalIncome">0</span></p>
+  <p>Total Expenses: $<span id="totalExpenses">0</span></p>
+  <p>Against Budget: $<span id="againstBudget">0</span></p>
+
+<h3>Expenses:</h3>
+<ul id="expensesList"></ul>
+-->
+
+<script src="budget.js"></script>
+</body>
+</html>
